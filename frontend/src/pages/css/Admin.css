@@ -1,0 +1,32 @@
+.admin-page-container {
+    padding: 20px;
+  }
+  
+  .admin-card {
+    margin-top: 20px;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .modal-header {
+    background-color: #f8f9fa;
+  }
+  
+  .modal-footer {
+    background-color: #f8f9fa;
+  }
+  
+  .modal-title {
+    color: #343a40;
+  }
+  
+  button.me-2 {
+    margin-right: 0.5rem;
+  }
+  

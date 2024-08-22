@@ -1,0 +1,52 @@
+.home-page-container {
+  padding: 20px;
+  position: relative; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 20px;
+  position: relative; 
+}
+
+.header h1 {
+  margin-top: 30px;
+}
+
+.search-form {
+  max-width: 600px;
+  padding-top: 40px;
+}
+
+.search-btn {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.tag:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+

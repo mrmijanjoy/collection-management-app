@@ -1,0 +1,215 @@
+/* Container styling */
+.item-page-container {
+  background-color: #f8f9fa; 
+  padding: 2rem;
+}
+
+/* Dropdown styling */
+.dropdown-toggle {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 0.5rem;
+}
+
+/* Create button styling */
+.button-create {
+  background-color: #28a745; 
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.button-create:hover {
+  background-color: #218838; 
+}
+
+/* Search form styling */
+.search-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.125rem rgba(0,0,0,0.2);
+  margin-bottom: 1rem;
+}
+
+.search-form input,
+.search-form select {
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+/* Card styling for items */
+.card {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.25rem rgba(0,0,0,0.2);
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007bff; 
+}
+
+.card-body {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.card-text {
+  color: #6c757d; 
+}
+
+/* Modal styling */
+.modal-content {
+  border-radius: 0.5rem;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .dropdown-toggle,
+  .button-create {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .search-form {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+}
+
+
+/* Item form */
+.item-form-modal .modal-content {
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.item-form-modal .modal-body {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.item-form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+}
+
+.item-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.item-form .form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.item-form .form-control {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.item-form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.item-form .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 10px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.item-form .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.item-form .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.item-form .btn-secondary {
+  border-radius: 10px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-color: #6c757d;
+  background-color: #6c757d;
+}
+
+.item-form .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+
+.item-tag {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 2px;
+  display: inline-block;
+}
+.suggestions-list {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+}
+.suggestions-list li {
+  padding: 5px;
+  cursor: pointer;
+}
+.suggestions-list li:hover {
+  background-color: #f0f0f0;
+}
+.selected-tag {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin-right: 5px;
+}
